@@ -1,0 +1,45 @@
+.herz{position: absolute; fill:#fff;}
+
+.hund2012:hover .herz{fill: #F17354;}
+.hund2013:hover .herz{fill: #F17354;}
+.hund2014:hover .herz {fill: #F17354;}
+.hund2015:hover .herz{fill: #F17354;}
+.hund{fill: #FDD8A2;}
+.hundst2{fill: #282828;}
+.hundst3{fill: none;}
+.zahlen, .jahr{position: absolute; fill:#1D1D1B; }
+text.font-b{ font-weight: 800; font-size:20px;}
+text.font-m{  font-weight: 600; font-size:16px;}
+
+#Ebene_1{
+  font-weight: 'LibreFranklin';
+  padding: 50px 0 0 80px;
+  width: 850px;
+}
+
+#Ebene_2{
+  font-family: : 'LibreFranklin';
+  width: 800px;
+  padding: 50px 0 0 80px;
+}
+
+.st0{fill:none;stroke:#2D2D2D;stroke-miterlimit:10;}
+.st1{stroke:#2D2D2D;stroke-width:0.5;}
+.st3{font-size:18px; font-weight: 800;}
+.st4{fill:#F17354;stroke:#2D2D2D;stroke-width:0.5;stroke-miterlimit:10;}
+.st5{fill:#B9D585;stroke:#2D2D2D;stroke-width:0.5;stroke-miterlimit:10;}
+.st6{fill:#DAF5FF;stroke:#2D2D2D;stroke-width:0.5;stroke-miterlimit:10;}
+.st7{fill:#FFFFFF;stroke:#2D2D2D;stroke-width:0.5;stroke-miterlimit:10;}
+.st8{fill:none;}
+.st9{fill:#1D1D1B;}
+.st10{font-size:18px;}
+.st11{
+  position: relative;
+  font-size: 10px;
+  transform-origin: center center;
+  visibility: hidden;
+}
+
+.st4:hover + .st11, .st5:hover + .st11, .st6:hover + .st11, .st7:hover + .st11{
+  visibility: visible;
+}
